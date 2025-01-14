@@ -1,0 +1,10 @@
+.nombre_logo {
+    font-size: 2rem;
+    color: var(--color-sec);
+}
+
+@media (max-width: 425px) {
+    .menu__header img {
+        height: 1.2rem;
+    }
+}

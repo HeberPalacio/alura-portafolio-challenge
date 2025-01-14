@@ -1,0 +1,22 @@
+.formcontacto {
+    background-color: var(--color-ter);
+    padding: 4rem 5rem;
+}
+
+.formcontacto__contacto {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width:768px) {
+    .formcontacto {
+        padding: 2rem;
+    }
+
+    .formcontacto__contacto {
+        padding-top: 0;
+    }
+}

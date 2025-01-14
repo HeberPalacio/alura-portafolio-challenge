@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Cargar la librería Font Awesome para los íconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Preconexión a Google Fonts para mejorar el rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Cargar fuente personalizada: Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Archivo principal de estilos -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Estilos específicos organizados por carpetas y módulos -->
+    <link rel="stylesheet" href="./assets/css/about/about.css" />
+    <link rel="stylesheet" href="./assets/css/about/about__container.css" />
+    <link rel="stylesheet" href="./assets/css/academic/academic.css" />
+    <link rel="stylesheet" href="./assets/css/academic/academicCourses.css" />
+    <link rel="stylesheet" href="./assets/css/contacto/contacto.css" />
+    <link rel="stylesheet" href="./assets/css/contacto/form--esquema.css" />
+    <link rel="stylesheet" href="./assets/css/contacto/form__text.css" />
+    <link rel="stylesheet" href="./assets/css/exp/exp.css" />
+    <link rel="stylesheet" href="./assets/css/exp/exp__box.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer.css" />
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies.css" />
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies__line.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-header.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-nav.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu.css" />
+    <link rel="stylesheet" href="./assets/css/skills/skills.css" />
+    <link rel="stylesheet" href="./assets/css/skills/skills__line.css" />
+    <link rel="stylesheet" href="./assets/css/titile/title.css" />
+    <link rel="stylesheet" href="./assets/css/titile/title-img.css" />
+    <link rel="stylesheet" href="./assets/css/titile/title__container.css" />
+    <title>Mi Portafolio</title>
+  </head>
+  <body>
+    <div class="todo">
+      <!-- Menú de navegación principal -->
+      <section class="menu">
+        <!-- Cabecera del menú: contiene el logo o nombre del autor -->
+        <header class="menu__header">
+          <h1 class="nombre_logo">Heber Palacio</h1>
+        </header>
+        <!-- Barra de navegación -->
+        <nav class="menu-nav">
+          <ul class="menu__list">
+            <!-- Cada enlace de navegación está asociado a una sección del sitio -->
+            <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+            <li class="menu__list__item"><a href="#skills">Skills</a></li>
+            <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+            <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+            <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+            <li class="menu__list__item">
+              <!-- Email como un enlace directo para contacto -->
+              <a href="#contacto">heber.pg27@gmail.com</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- Sección del Header/Title/Hero -->
+<section class="title">
+  <div class="title__div">
+    <!-- Imagen de perfil: asegúrate de que la ruta sea válida y la imagen tenga un tamaño adecuado para no afectar el diseño -->
+    <img class="title__profile" src="assets\profile.png" />
+    <div class="title__container">
+      <!-- Bio del desarrollador: puedes actualizar este texto para incluir nuevos logros o proyectos destacados -->
+      <h2 class="title__bio">
+        Heber Palacio • Desarrollador Web 
+      </h2>
+
+      <!-- Subtítulo del hero: enfatiza tu experiencia o intereses actuales -->
+      <h3 class="title__subsection">
+        Estudiante autodidacta y actual participante del proyecto Oracle ONE en Alura Latam.
+      </h3>
+
+      <!-- Lista de redes sociales: mantén actualizados los enlaces y revisa que las imágenes de flecha sean coherentes -->
+      <ul class="title__network">
+        <li class="title__network__item">
+          <a target="_blank" href="https://github.com/HeberPalacio"
+            >Github <img src="assets\arrow.png" />
+          </a>
+        </li>
+        <li class="title__network__item">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/heber-palacio-267b76300/"
+            >Linkedin <img src="assets\arrow.png"
+          /></a>
+        </li>
+        <li class="title__network__item">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/variantesgeek/"
+            >Instagram <img src="assets\arrow.png"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Sección sobre mí -->
+<section class="about" id="sobre-mi">
+  <div class="about__container">
+    <!-- Título de la sección: el estilo CSS asegura que tenga coherencia con el resto de los títulos -->
+    <h3 class="about__title">Sobre mi</h3>
+    <!-- Descripción personal: mantén esto breve y enfocado, pero actualizado con tu crecimiento profesional -->
+    <p class="about__paragraph">
+      "Desarrollador web en formación con sólidos conocimientos en tecnologías modernas 
+      y pasión por crear soluciones innovadoras. Motivado por el aprendizaje continuo y 
+      listo para contribuir con habilidades técnicas y creatividad en proyectos desafiantes."
+    </p>
+
+    <!-- Firma opcional: asegúrate de que la imagen sea clara y visible -->
+    <img src="assets\signature.png" />
+  </div>
+</section>
+
+<!-- Sección de Skills -->
+<section class="skills" id="skills">
+  <!-- Título de la sección: utiliza clases consistentes con otros títulos principales -->
+  <h3 class="skills__title">Skills</h3>
+  <div class="skills__line">
+    <!-- Caja para cada skill: cada skill tiene un ícono y un nombre, verifica que los íconos estén en un formato estándar -->
+    <div class="skills__box">
+      <ul>
+        <li class="skills__img"><img src="assets\htlm.png" /></li>
+        <li class="skills__name">HTML 5</li>
+      </ul>
+    </div>
+
+    <div class="skills__box">
+      <ul>
+        <li class="skills__img">
+          <img src="assets\js_icon.png" alt="" />
+        </li>
+        <li class="skills__name">Javascript</li>
+      </ul>
+    </div>
+
+    <div class="skills__box">
+      <ul>
+        <li class="skills__img">
+          <img src="assets\php_icon.png" alt="" />
+        </li>
+        <li class="skills__name">PHP</li>
+      </ul>
+    </div>
+
+    <div class="skills__box">
+      <ul>
+        <li class="skills__img">
+          <img src="assets\nodejs_icon.png" alt="" />
+        </li>
+        <li class="skills__name">Node JS</li>
+      </ul>
+    </div>
+
+    <div class="skills__box">
+      <ul>
+        <li class="skills__img">
+          <img src="assets\react_icon.png" alt="" />
+        </li>
+        <li class="skills__name">React</li>
+      </ul>
+    </div>
+
+    <div class="skills__box">
+      <ul>
+        <li class="skills__img">
+          <img src="assets\css_icon.png" alt="" />
+        </li>
+        <li class="skills__name">CSS</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Sección de Hobbies -->
+<section class="hobbies" id="hobbies">
+  <!-- Título de la sección: mantén la coherencia con otros títulos principales -->
+  <h3 class="hobbies__title">Hobbies</h3>
+  <div class="hobbies__line">
+    <!-- Cada caja representa un hobby: asegúrate de que las imágenes sean descriptivas y tengan un formato estándar -->
+    <div class="hobbies__box">
+      <ul>
+        <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
+        <li class="hobbies__name">Patinaje</li>
+      </ul>
+    </div>
+
+    <div class="hobbies__box">
+      <ul>
+        <li class="hobbies__img">
+          <img src="assets\guitar_icon.png" alt="" />
+        </li>
+        <li class="hobbies__name">Tocar bajo</li>
+      </ul>
+    </div>
+
+    <div class="hobbies__box">
+      <ul>
+        <li class="hobbies__img">
+          <img src="assets\headphones_icon.png" alt="" />
+        </li>
+        <li class="hobbies__name">Oir música</li>
+      </ul>
+    </div>
+
+    <div class="hobbies__box">
+      <ul>
+        <li class="hobbies__img">
+          <img src="assets\tv_icon.png" alt="" />
+        </li>
+        <li class="hobbies__name">Ver series</li>
+      </ul>
+    </div>
+
+    <div class="hobbies__box">
+      <ul>
+        <li class="hobbies__img">
+          <img src="assets\forkspoon_icon.png" alt="" />
+        </li>
+        <li class="hobbies__name">Cocinar</li>
+      </ul>
+    </div>
+
+    <div class="hobbies__box">
+      <ul>
+        <li class="hobbies__img">
+          <img src="assets\camera_icon.png" alt="" />
+        </li>
+        <li class="hobbies__name">Tomar fotos</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Formación Académica -->
+<section class="academic" id="formacion">
+  <!-- Título de la sección: actualizado conforme al resto de la página -->
+  <h2 class="academic__title">Formación académica</h2>
+  <div class="academic__courses">
+    <div class="academic__courses__box">
+      <!-- Información de cada curso: asegúrate de que las imágenes representen correctamente a la institución -->
+      <ul class="academic__courses__list">
+        <li class="academic__courses__item__img">
+          <img src="assets\ufpr_logo.png" />
+        </li>
+        <li class="academic__courses__item__title">
+          <h4>Analisis de Datos</h4>
+        </li>
+        <li class="academic__courses__item__subtitle">
+          <p>2018 - UFRP</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="academic__courses__box">
+      <ul class="academic__courses__list">
+        <li class="academic__courses__item__img">
+          <img src="assets\alura_logo.png" />
+        </li>
+        <li class="academic__courses__item__title">
+          <h4>Formación en Front-End Developer</h4>
+        </li>
+        <li class="academic__courses__item__subtitle">
+          <p>En curso - Alura</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="academic__courses__box">
+      <ul class="academic__courses__list">
+        <li class="academic__courses__item__img">
+          <img src="assets\ufrj_logo.png" />
+        </li>
+        <li class="academic__courses__item__title">
+          <h4>Posgradio en Design</h4>
+        </li>
+        <li class="academic__courses__item__subtitle">
+          <p>2023 - UFRJ</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <!-- Sección de Experiencia Profesional/Proyectos -->
+      <section class="experience" id="xp">
+        <!-- Título principal de la sección -->
+        <h2 class="experience__section__title">Experiencia Profesional</h2>
+        
+        <!-- Primera caja de experiencia: Encriptador de texto -->
+        <div class="experiencie__box">
+          <!-- Imagen representativa del proyecto -->
+          <img class="experience__img" src="assets\decod_print.png" />
+          <div class="experience__info">
+            <!-- Título del proyecto -->
+            <h2 class="experience__title">Encriptador de texto</h2>
+            <!-- Subtítulo o descripción breve del proyecto -->
+            <h3 class="experience__text">Challenge Alura Codificador</h3>
+            <div class="experience__description">
+              <!-- Enlace al repositorio del proyecto -->
+              <span class="experience__repo">
+                <a href="https://github.com/HeberPalacio/Encriptador-De-Texto">
+                  <button class="experiencia__boton--repo">Repositório</button>
+                </a>
+              </span>
+              <!-- Enlace a la demo del proyecto -->
+              <span class="experience__demo">
+                <a href="">
+                  <button class="experience__boton--demo">Ver demo</button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Segunda caja de experiencia: Juego creado con HTML y JavaScript -->
+        <div class="experiencie__box">
+          <!-- Imagen representativa del proyecto -->
+          <img class="experience__img" src="assets\forca_print.png" />
+          <div class="experience__info">
+            <!-- Título del proyecto -->
+            <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+            <!-- Subtítulo o descripción breve del proyecto -->
+            <h3 class="experience__text">Challenge Oracle</h3>
+            <div class="experience__description">
+              <!-- Enlace al repositorio del proyecto -->
+              <span class="experience__repo">
+                <a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado">
+                  <button class="experiencia__boton--repo">Repositório</button>
+                </a>
+              </span>
+              <!-- Enlace a la demo del proyecto -->
+              <span class="experience__demo">
+                <a href="">
+                  <button class="experience__boton--demo">Ver demo</button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tercera caja de experiencia: Otro encriptador de texto -->
+        <div class="experiencie__box">
+          <!-- Imagen representativa del proyecto -->
+          <img class="experience__img" src="assets\secretcode_print.png" />
+          <div class="experience__info">
+            <!-- Título del proyecto -->
+            <h2 class="experience__title">Encriptador de texto</h2>
+            <!-- Subtítulo o descripción breve del proyecto -->
+            <h3 class="experience__text">Challenge Oracle</h3>
+            <div class="experience__description">
+              <!-- Enlace al repositorio del proyecto -->
+              <span class="experience__repo">
+                <a href="https://github.com/HeberPalacio/Encriptador-De-Texto">
+                  <button class="experiencia__boton--repo">Repositório</button>
+                </a>
+              </span>
+              <!-- Enlace a la demo del proyecto -->
+              <span class="experience__demo">
+                <a href="">
+                  <button class="experience__boton--demo">Ver demo</button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cuarta caja de experiencia: Otro juego con tecnologías web -->
+        <div class="experiencie__box">
+          <!-- Imagen representativa del proyecto -->
+          <img class="experience__img" src="assets\forca2_print.png" />
+          <div class="experience__info">
+            <!-- Título del proyecto -->
+            <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
+            <!-- Subtítulo o descripción breve del proyecto -->
+            <h3 class="experience__text">Challenge Oracle</h3>
+            <div class="experience__description">
+              <!-- Enlace al repositorio del proyecto -->
+              <span class="experience__repo">
+                <a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado">
+                  <button class="experiencia__boton--repo">Repositório</button>
+                </a>
+              </span>
+              <!-- Enlace a la demo del proyecto -->
+              <span class="experience__demo">
+                <a href="">
+                  <button class="experience__boton--demo">Ver demo</button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!-- Sección de Contacto -->
+<section class="formcontacto" id="contacto">
+  <div class="formcontacto__contacto">
+    <!-- Imagen representativa del formulario de contacto -->
+    <div class="formcontacto--izquierda">
+      <img class="formcontacto__img" src="assets\contact_image.png" />
+    </div>
+    <div class="formcontacto__text">
+      <h2 class="formcontacto__title">Contacto</h2>
+      <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
+      <h3 class="formcontacto__subtext">
+        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+      </h3>
+      <form class="formcontacto__form" name="form" id="form">
+        <!-- Inputs: verifica la validación del formulario en el archivo JS -->
+        <div id="input_nombre" class="input">
+          <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre" />
+        </div>
+        <div id="input_email" class="input">
+          <input class="formcontacto__input" type="email" name="email" placeholder="E-mail" />
+        </div>
+        <div id="input_asunto" class="input">
+          <input class="formcontacto__input" type="text" name="asunto" placeholder="Assunto" />
+        </div>
+        <div id="input_mensaje" class="input">
+          <textarea
+            class="formcontacto__textarea"
+            rows="5"
+            cols="40"
+            id="mensagem"
+            name="mensaje"
+            placeholder="Mensaje"
+          ></textarea>
+        </div>
+        <a href="heber.pg27@gmail.com" id="enviar">
+          <input type="submit" class="formcontacto__boton" value="Enviar mensaje" />
+        </a>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Footer -->
+<section class="footer">
+  <!-- Footer con información de copyright -->
+  <div class="footer__rodapie">
+    <p>Desarrollado por Heber Palacio</p>
+    <p>2025</p>
+  </div>
+</section>

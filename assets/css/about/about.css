@@ -1,0 +1,11 @@
+.about{
+    padding: 2rem 5rem;
+    background-color: var(--color-ter);
+}
+
+/* Media query para dispositivos móviles con un máximo de 425px */
+@media (max-width: 425px) {
+    .about {
+        padding: 1rem 2rem; /* Reduce el padding para pantallas más pequeñas */
+    }
+}
