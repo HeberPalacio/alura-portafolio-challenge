@@ -15,7 +15,7 @@ Este repositorio fue la base de mi proyecto, y aquí desarrollé un portafolio c
 #### Archivos principales del proyecto:
 - 🔹 **index.html**: Personalicé y amplié el documento HTML base. Ajusté las secciones, agregué mis proyectos personales y modifiqué el contenido para reflejar mis habilidades y experiencia.
 - 🔹 **style.css**: Añadí estilos propios y realicé modificaciones en los sugeridos, logrando un diseño único, moderno y alineado con mis objetivos profesionales.
-- 🔹 **validacao.js**: Implementé la lógica de validación para formularios en JavaScript, asegurando que los datos del usuario se manejen correctamente.
+- 🔹 **validacion.js**: Implementé la lógica de validación para formularios en JavaScript, asegurando que los datos del usuario se manejen correctamente.
 
 #### Resultado inicial del proyecto:
 Este fue el diseño base al que le di vida con mis personalizaciones:
